@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <form method="POST"> <!-- os dados não são mostrados no URL, diferente do metodo get -->
+  <head>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/
+17022df617
+.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      <div class="espaco">
+        <label for="titulo"><p>Formulário<br>De<br>Cadastro</p></label>
+      </div>
+      <div class="container">
+        <div class="input-container">
+          <label for="usuario"><i class="far fa-user"></i></label>
+          <p class="nome">Nome</p>
+          <input class="input-usuário" id="usuario" type="text"  placeholder="Nome Completo">
+        </div>
+        <div class="input-container">
+          <label for="email"><i class="far fa-envelope"></i></label>
+          <p class="endereço-email">Email</p>
+          <input class="input-email" id="email" type="email"  placeholder="seuEmail@.gmailcom">
+        </div>
+        <div class="input-container">
+          <label for="data"><i class="far fa-calendar-alt"></i></label>
+          <p class="dataDeNascimento">Data De Nascimento</p>
+          <input class="input-dataDeNascimento" id="data" type="date">
+        </div>
+        <div class="input-container">
+          <label for="telefone"><i class="fas fa-phone-alt"></i></label>
+          <p class="numero-telefone">Telefone</p>
+          <input class="input-telefone" id="telefone" type="tel"  placeholder="(11) 99992-4576">
+        </div>
+        <div class="input-container">
+          <label for="estado"><img src="images/image 5estado.png"/></label>
+          <p class="nome-estado">Estado</p>
+          
+          <select name="estado" class="input-estado" >
+            <option value="">Selecione</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="DF">Distrito Federal</option>
+          </select>
+        </div>
+            <div class="generos">
+              <p class="nome-genero">Sexo</p>
+          <label for="Sexo"><i class="fas fa-venus-mars"></i></label>
+            <div class="buttom-radio">   
+              <input type="radio" name="nome-masculino" value="m" id="radio-masculino" >
+              <label for="radio-masculino">Masculino</label> 
+            <input type="radio" name="nome-feminino" value="f" id="radio-feminino">
+             <label for="radio-feminino">Feminino</label>
+             </div>
+        </div>
+    
+
+        <div class="input-container">
+          
+          <input class="input-submit" id="submit" type="submit">
+        </div>
+      
+          
+      </div>  
+      </div>
+      </main>
+    </body>
+</form>
+</html>

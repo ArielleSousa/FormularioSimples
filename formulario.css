@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    /* preenche todo o top da pagina */
+  
+  }
+html,
+body{
+  width: 100%;
+}
+
+body{
+ margin:0px;
+}
+
+main{
+  background: rgba(142, 26, 186, 1);
+  background-image: url(images/Formulário.png); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;/*preenche a largura toda */
+  height:100vh;/*preenche a altura toda */
+}
+.container {
+  background: rgba(152, 38, 206, 1);
+  width: 560px;
+  height: 680px;
+  margin-left: 950px;
+  margin-right: 18px;
+  border:2px solid rgba(60, 56, 56, 0.55);
+  border-radius: 20px;
+  Fill: #8E6739  0% #9826CE 0.01% rgba(229, 229, 229, 0) 100%;
+}
+.espaco{
+  padding: 20px;
+}
+
+label[for=titulo]{
+  font-family: 'El Messiri', sans-serif;
+  position: absolute;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 48px;
+  top: 270px;
+  margin-left:2px;
+}
+.input-container{
+  position: relative;
+  display:inline-block
+} 
+
+.nome{
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+label[for=usuario]{
+  position: absolute;
+  font-size: 23px;
+  top: 53px;
+  left:30px;
+}
+
+.input-usuário{
+  border: none;
+  border-radius:10px;
+  margin-top: 8px;
+  background: rgba(196, 196, 196, 1);
+  font-size: 20px;
+  width: 350px;
+  height: 15px;
+  padding: 0px 10px 14px 50px;
+  margin-left: 20px;
+  padding-top: 12px; 
+}
+/* /* .input-container-email{
+  position: relative;
+}  */
+.endereço-email{
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+label[for=email]{
+ position: absolute;
+  font-size: 23px;
+  top: 53px;
+  left:30px;
+}
+/* input.input-email{
+  background-image: url(images/image\ 5estado.png);
+  background-repeat: no-repeat;
+  um jeito de colocar icone com imagem
+  
+} */
+.input-email{
+  
+  border: none;
+  border-radius:10px;
+  margin-top: 8px;
+  background: rgba(196, 196, 196, 1);
+  font-size: 20px;
+  width: 350px;
+  height: 15px;
+  padding: 0px 10px 14px 50px;
+  margin-left: 20px;
+  padding-top: 12px; 
+} 
+.dataDeNascimento{
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+label[for=data]{
+  position: absolute;
+   font-size: 23px;
+   top: 53px;
+   left:30px;
+ }
+ input[type=date]::-webkit-inner-spin-button,input[type=date]::-webkit-calendar-picker-indicator{
+       display: none;
+       -webkit-appearance: none;
+       /* para sumir o icone do input date */
+ }
+ .input-dataDeNascimento{
+  border: none;
+  border-radius:10px;
+  margin-top: 8px;
+  background: rgba(196, 196, 196, 1);
+  font-size: 20px;
+  width: 350px;
+  height: 15px;
+  padding: 0px 10px 14px 50px;
+  margin-left: 20px;
+  padding-top: 12px; 
+} 
+.numero-telefone{
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+label[for=telefone]{
+  position: absolute;
+   font-size: 23px;
+   top: 53px;
+   left:30px;
+ }
+ .input-telefone{
+  border: none;
+  border-radius:10px;
+  margin-top: 8px;
+  background: rgba(196, 196, 196, 1);
+  font-size: 20px;
+  width: 350px;
+  height: 15px;
+  padding: 0px 10px 14px 50px;
+  margin-left: 20px;
+  padding-top: 12px; 
+} 
+.nome-estado{
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 75px;
+}
+
+label[for=estado]{
+  position: absolute;
+  font-size: 23px;
+   top: 7px;
+   left:30px;
+  
+ }
+ .input-estado{
+  border: none;
+  border-radius:10px;
+  margin-top: 8px;
+  background: rgba(196, 196, 196, 1);
+  font-size: 20px;
+  width: 200px;
+  height: 15px;
+  padding: 0px 10px 14px 50px;
+  margin-left: 20px;
+  padding-top: 12px; 
+ }
+ .nome-genero{
+  color:  rgba(255, 255, 255, 1);
+  font-size: 24px;
+  margin-top: -69px;
+  margin-left: 330px;
+}
+label[for=Sexo]{
+  position: absolute;
+  font-size: 23px;
+   top: 400px;
+   margin-left:290px;
+ }
+label[for=radio-masculino],label[for=radio-feminino]{
+  display: inline-block;
+  color:rgba(255, 255, 255, 1);
+  margin-left: 10px;
+  font-size: 20px;
+  
+}
+.buttom-radio{
+  margin-left: 280px;
+  margin-top: 8px;
+ 
+}
+
+.input-submit{
+  background: rgba(196, 196, 196, 1);
+  width: 200px;
+  box-shadow: rgba(60, 56, 56, 0.55);
+  border-radius: 20px;
+  margin-top: 135px;
+  margin-left: 200px;
+  padding: 10px;
+}
