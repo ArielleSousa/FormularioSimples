@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* preenche todo o top da pagina */
+    
   
   }
 html,
@@ -17,8 +17,8 @@ main{
   background-image: url(images/Formulário.png); 
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100vw;/*preenche a largura toda */
-  height:100vh;/*preenche a altura toda */
+  width: 100vw;
+  height:100vh;
 }
 .container {
   background: rgba(152, 38, 206, 1);
@@ -89,12 +89,7 @@ label[for=email]{
   top: 53px;
   left:30px;
 }
-/* input.input-email{
-  background-image: url(images/image\ 5estado.png);
-  background-repeat: no-repeat;
-  um jeito de colocar icone com imagem
-  
-} */
+
 .input-email{
   
   border: none;
@@ -123,7 +118,7 @@ label[for=data]{
  input[type=date]::-webkit-inner-spin-button,input[type=date]::-webkit-calendar-picker-indicator{
        display: none;
        -webkit-appearance: none;
-       /* para sumir o icone do input date */
+       
  }
  .input-dataDeNascimento{
   border: none;
